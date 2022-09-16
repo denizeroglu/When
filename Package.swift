@@ -1,12 +1,12 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "When",
     platforms: [
-        .macOS(.v10_10),
-        .iOS(.v8),
-        .tvOS(.v9)
+        .macOS(.v10_13),
+        .iOS(.v11),
+        .tvOS(.v11),
     ],
     products: [
         .library(name: "When",
